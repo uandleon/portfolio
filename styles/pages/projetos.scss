@@ -1,0 +1,64 @@
+/*-----------PROJETOS-----------*/
+
+
+#h1projetos{
+    color: rgb(255, 255, 255);
+    font-size: 3.5em;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.fileira11{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.divprojetos{
+    margin: 3em;
+    transition: 0.8s;
+    display: flex;
+    flex-direction: column;
+}
+
+.divprojetos:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.imagensprojetos{
+    width: 19em;
+    transition: 0.8s;
+}
+
+.imagens1{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 565px){
+
+#h1projetos{
+    font-size: 2em;
+}
+
+.imagensprojetos{
+    width: 14em;
+}
+
+.fileira11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.y{
+    margin: 1px;
+}
+
+
+
+}
